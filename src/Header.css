@@ -1,0 +1,15 @@
+div#header {
+    width: 100%;
+    color: darkslategray;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#headerLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
