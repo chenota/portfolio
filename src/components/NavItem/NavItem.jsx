@@ -1,5 +1,3 @@
-import './Header.css'
-
 // Default props list
 const defaultProps = {
     text: "NavItem"

@@ -1,5 +1,5 @@
 import './Header.css'
-import NavItem from './NavItem';
+import NavItem from '../NavItem/NavItem';
 
 function Header() {
     return (
