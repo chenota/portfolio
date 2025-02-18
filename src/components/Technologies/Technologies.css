@@ -1,0 +1,19 @@
+div#techMain {
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+}

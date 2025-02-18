@@ -1,0 +1,28 @@
+.techCard {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid black;
+    border-radius: 0.15em;
+    font-size: 1em;
+    width: 10em;
+    height: 2em;
+}
+
+.tcIcon {
+    color: white;
+    background-color: darkslategray;
+    padding: 1px;
+    height: 100%;
+    aspect-ratio : 1 / 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.tcText {
+    font-size: 1.15rem;
+}
