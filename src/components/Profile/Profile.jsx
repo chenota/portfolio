@@ -15,7 +15,7 @@ function Profile(props) {
     return (
         <div className="container flexCol">
             <div className="sbs sbsLarge">
-                <img src="/icon.svg" alt="Profile Picture" className="imgRounded" />
+                <img src="/square.svg" alt="Profile Picture" className="imgRounded" />
                 <h1>Hi, I'm Alex <span className="wave">👋</span></h1>
             </div>
             <div>Software developer with an interest in compiler design and data systems.</div>

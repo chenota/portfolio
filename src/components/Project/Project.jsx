@@ -5,7 +5,7 @@ import TechCard from '../TechCard/TechCard';
 const defaultProps = {
     title: "Project",
     link: "https://www.github.com/chenota",
-    img: "/icon.svg",
+    img: "/square.svg",
     children: "Some text about the project.",
     technologies: []
 }
