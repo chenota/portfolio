@@ -13,7 +13,7 @@ function Profile(props) {
     };
     // Component
     return (
-        <div id="profileMain">
+        <div className="container flexCol">
             <div className="sbs sbsLarge">
                 <img src="/icon.svg" alt="Profile Picture" className="imgRounded" />
                 <h1>Hi, I'm Alex <span className="wave">👋</span></h1>

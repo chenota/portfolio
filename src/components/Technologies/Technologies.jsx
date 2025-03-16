@@ -23,7 +23,7 @@ const techCards = [
 function Technologies() {
     // Component
     return (
-        <div id="techMain">
+        <div className="container flexCol">
             <h1> Technologies I Use </h1>
             <div className="icons">
                 {

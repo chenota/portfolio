@@ -16,3 +16,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
