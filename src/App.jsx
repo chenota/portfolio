@@ -4,11 +4,7 @@ import Profile from './components/Profile/Profile'
 import Technologies from './components/Technologies/Technologies'
 import Project from './components/Project/Project'
 
-import { FaRust, FaPython, FaJs, FaReact, FaLinux } from 'react-icons/fa6';
-import { TbBrandCpp, TbLambda } from 'react-icons/tb';
-import { BsFiletypeSql } from 'react-icons/bs';
-import { SiGnubash } from 'react-icons/si';
-import { PiMicrosoftExcelLogo } from 'react-icons/pi';
+import { FaRust, FaGears, FaLinux } from 'react-icons/fa6';
 
 function App() {
   return (
@@ -24,6 +20,7 @@ function App() {
             technologies={[
               ["Rust", <FaRust />],
               ["Linux", <FaLinux />],
+              ["x86 ASM", <FaGears />]
             ]}
             >
               AlexC is a compiled programming language that targets x86-64 assembly.

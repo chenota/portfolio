@@ -1,4 +1,4 @@
-import { FaRust, FaPython, FaJs, FaReact, FaLinux } from 'react-icons/fa6';
+import { FaRust, FaPython, FaJs, FaReact, FaLinux, FaGears } from 'react-icons/fa6';
 import { TbBrandCpp, TbLambda } from 'react-icons/tb';
 import { BsFiletypeSql } from 'react-icons/bs';
 import TechCard from '../TechCard/TechCard';
@@ -14,10 +14,11 @@ const techCards = [
     ["JavaScript", <FaJs />],
     ["Bash", <SiGnubash />],
     ["React", <FaReact />],
-    ["Common LISP", <TbLambda />],
+    ["Com. LISP", <TbLambda />],
     ["SQL", <BsFiletypeSql />],
     ["Linux", <FaLinux />],
-    ["Excel", <PiMicrosoftExcelLogo /> ]
+    ["Excel", <PiMicrosoftExcelLogo /> ],
+    ["x86 ASM", <FaGears />]
 ]
 
 function Technologies() {
