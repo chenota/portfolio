@@ -14,19 +14,21 @@ function App() {
   return (
     <>
       <Header />
-      <div id="cards">
-        <Profile work={true}/>
-        <Technologies />
-        <Project 
-          title="AlexC"
-          link="https://www.github.com/chenota/alexc"
-          technologies={[
-            ["Rust", <FaRust />],
-            ["Linux", <FaLinux />],
-          ]}
-          >
-            AlexC is a compiled programming language that targets x86-64 assembly.
-        </Project>
+      <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'center'}}>
+        <div id="cards">
+          <Profile work={true}/>
+          <Technologies />
+          <Project 
+            title="AlexC"
+            link="https://www.github.com/chenota/alexc"
+            technologies={[
+              ["Rust", <FaRust />],
+              ["Linux", <FaLinux />],
+            ]}
+            >
+              AlexC is a compiled programming language that targets x86-64 assembly.
+          </Project>
+        </div>
       </div>
     </>
   )

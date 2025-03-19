@@ -1,5 +1,5 @@
 div#cards {
-    width: 100%;
+    max-width: 50em;
     display: flex;
     flex-direction: column;
     gap: 10px;
