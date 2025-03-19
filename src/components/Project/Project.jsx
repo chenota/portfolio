@@ -29,19 +29,20 @@ function Project(props) {
                 <span>{props.title}</span>
                 <a href={props.link}><FaGithub /></a>
             </h1>
-            <div style={{display:'flex',flexDirection:'row',justifyContent:'left',alignItems:'center',gap:20}}>
+            <div>
+                {props.children}
+            </div>
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'left',alignItems:'center',gap:20,border:'1px solid black'}}>
                 <img src={props.img} className="imgCorners"/>
-                <div>
-                    {props.children}
+                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
+                    {
+                        props.technologies.map(([txt, ico], idx) => {
+                            return <TechCard text={txt} icon={ico} key={idx} />
+                        })
+                    }
                 </div>
             </div>
-            <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:20}}>
-                {
-                    props.technologies.map(([txt, ico], idx) => {
-                        return <TechCard text={txt} icon={ico} key={idx} />
-                    })
-                }
-            </div>
+            
         </div>
     )
 }
