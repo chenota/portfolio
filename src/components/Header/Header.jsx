@@ -12,7 +12,7 @@ function Header() {
     // Componenet body
     return (
         <div id="header">
-            <h1 onClick={toggleRainbowHeader} className={"select" + (isRainbowHeader ? " rainbow" : "")}>Alex Chenot</h1>
+            <h1 onClick={toggleRainbowHeader} className={"select" + (isRainbowHeader ? " rainbow" : "")}>Alex Chenot (Under Construction)</h1>
             <div id="headerLinks">
                 <NavItem text="About"/>
                 <NavItem text="Work" />
