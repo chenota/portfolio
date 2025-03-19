@@ -1,40 +1,19 @@
-import { FaRust, FaPython, FaJs, FaReact, FaLinux, FaGears } from 'react-icons/fa6';
-import { TbBrandCpp, TbLambda } from 'react-icons/tb';
-import { BsFiletypeSql } from 'react-icons/bs';
 import TechCard from '../TechCard/TechCard';
-import './Technologies.css'
-import { SiGnubash } from 'react-icons/si';
-import { PiMicrosoftExcelLogo } from 'react-icons/pi';
-
-
-const techCards = [
-    ["Rust", <FaRust />],
-    ["C/C++", <TbBrandCpp />],
-    ["Python", <FaPython />],
-    ["JavaScript", <FaJs />],
-    ["Bash", <SiGnubash />],
-    ["React", <FaReact />],
-    ["Com. LISP", <TbLambda />],
-    ["SQL", <BsFiletypeSql />],
-    ["Linux", <FaLinux />],
-    ["Excel", <PiMicrosoftExcelLogo /> ],
-    ["x86 ASM", <FaGears />]
-]
+import './Technologies.css';
+import { cards } from '../../constant';
 
 function Technologies() {
     // Component
     return (
         <div className="container flexCol">
-            <h1> Technologies I Use </h1>
+            <h1>Technologies I Use</h1>
             <div className="icons">
                 {
-                    techCards.map(([txt, ico], idx) => {
-                        return <TechCard text={txt} icon={ico} key={idx} />
-                    })
+                    Object.keys(cards).map((key) => <TechCard text={cards[key][0]} icon={cards[key][1]} key={key} />)
                 }
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Technologies;

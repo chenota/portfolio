@@ -17,11 +17,7 @@ function App() {
           <Project 
             title="AlexC"
             link="https://www.github.com/chenota/alexc"
-            technologies={[
-              ["Rust", <FaRust />],
-              ["Linux", <FaLinux />],
-              ["x86 ASM", <FaGears />]
-            ]}
+            technologies={["rust", "linux", "x86"]}
             >
               AlexC is a compiled programming language that targets x86-64 assembly.
           </Project>

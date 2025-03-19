@@ -1,18 +1,13 @@
 import './Project.css'
 import { FaGithub } from 'react-icons/fa6';
 import TechCard from '../TechCard/TechCard';
+import { cards } from '../../constant';
 
 const defaultProps = {
     title: "Project",
     link: "https://www.github.com/chenota",
     children: "Some text about the project.",
-    technologies: [
-        ["Some Text", <FaGithub/>],
-        ["Some Text", <FaGithub/>],
-        ["Some Text", <FaGithub/>],
-        ["Some Text", <FaGithub/>],
-        ["Some Text", <FaGithub/>]
-    ]
+    technologies: ["rust"]
 }
 
 function Project(props) {
@@ -33,9 +28,7 @@ function Project(props) {
             </div>
                 <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
                     {
-                        props.technologies.map(([txt, ico], idx) => {
-                            return <TechCard text={txt} icon={ico} key={idx} />
-                        })
+                        props.technologies.map((key) => <TechCard text={cards[key][0]} icon={cards[key][1]} key={key} />)
                     }
                 </div>
             
