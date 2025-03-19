@@ -21,8 +21,7 @@
   border-radius: 10px;
   padding: 20px;
   border: 2px solid black;
-  min-width: 50vw;
-  max-width: 90vw;
+  max-width: 45em;
 }
 
 .flexCol {
