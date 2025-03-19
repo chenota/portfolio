@@ -7,7 +7,13 @@ const defaultProps = {
     link: "https://www.github.com/chenota",
     img: "/square.svg",
     children: "Some text about the project.",
-    technologies: []
+    technologies: [
+        ["Some Text", <FaGithub/>],
+        ["Some Text", <FaGithub/>],
+        ["Some Text", <FaGithub/>],
+        ["Some Text", <FaGithub/>],
+        ["Some Text", <FaGithub/>]
+    ]
 }
 
 function Project(props) {
@@ -23,8 +29,8 @@ function Project(props) {
                 <span>{props.title}</span>
                 <a href={props.link}><FaGithub /></a>
             </h1>
-            <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',gap:20}}>
-                <img src={props.img} />
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'left',alignItems:'center',gap:20}}>
+                <img src={props.img} className="imgCorners"/>
                 <div>
                     {props.children}
                 </div>
