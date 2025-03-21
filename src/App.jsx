@@ -69,6 +69,13 @@ function App() {
               >
                 LispJS is a JavaScript interpreter written in the Common LISP programming language. The LispJS interpreter can run JS files or be used in REPL mode.
             </Project>
+            <Project 
+              title="Portfolio Website"
+              link="https://github.com/chenota/chenota.github.io"
+              technologies={["react"]}
+              >
+                This is the website you're on right now! I built this website using React which started out as an organizational tool, but features like state have turned out to be very useful.
+            </Project>
             <Divider text="Contact" />
           </TechContext.Provider>
         </div>
