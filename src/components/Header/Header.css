@@ -4,9 +4,8 @@ div.header {
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 3rem 0 3rem;
     z-index: 999;
     position: sticky;
     top: 0;

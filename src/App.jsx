@@ -22,14 +22,14 @@ function App() {
               link="https://www.github.com/chenota/alexc"
               technologies={["rust", "linux", "x86", "git"]}
               >
-                AlexC is a compiled programming language that targets x86-64 assembly.
+                AlexC is a C-like programming language that targets x86-64 assembly.
             </Project>
             <Project 
               title="AlexDB"
               link="https://www.github.com/chenota/alexdb"
               technologies={["rust", "linux", "sql", "git"]}
               >
-                AlexDB is a relational database system that integrates a programming language into SQL queries. To make AlexDB, I designed and implemented my own programming language, the database engine, and data compression schemes for efficient storage.
+                AlexDB is a made-from-scratch relational database system that integrates a functional programming language into SQL queries.
             </Project>
             <Project 
               title="LispJS"
