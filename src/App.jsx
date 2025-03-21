@@ -43,7 +43,7 @@ function App() {
               from="July 2018"
               to="September 2020"
               company="Colorado Governor's Office of IT"
-              technologies={["sf","js","excel"]}
+              technologies={["sf","js","excel","sql"]}
               link="https://oit.colorado.gov/">
               I worked closely with clients to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of other agencies.
             </Job>
