@@ -1,7 +1,8 @@
 import './Header.css'
 
 const defaultProps = {
-    navitems:[]
+    navitems:[],
+    title:"Alex Chenot"
 }
 
 function Header(props) {
@@ -12,9 +13,9 @@ function Header(props) {
     // Componenet body
     return (
         <div className="header">
-            <h1>Alex Chenot (WIP)</h1>
+            <h1>{props.title}</h1>
             <div className="headerLinks">
-                {
+                { 
                     props.navitems.map(([text, scrollfn], key) => <div className="link" onClick={scrollfn} key={key}>{text}</div>)
                 }
             </div>

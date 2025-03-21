@@ -28,7 +28,7 @@ function App() {
   }
   return (
     <>
-      <Header title="Alex Chenot (WIP)" navitems={
+      <Header title="Alex Chenot" navitems={
         [
           ["About", scrollTo('aboutSection')],
           ["Work", scrollTo('workSection')],
