@@ -1,19 +1,12 @@
 import './Header.css'
 import NavItem from '../NavItem/NavItem';
-import { useState } from 'react'
 
 function Header() {
-    // Is the header currently rainbow?
-    const [ isRainbowHeader, setRainbowHeader ] = useState(false);
-    // Function to toggle rainbow header back and forth
-    const toggleRainbowHeader = () => {
-        setRainbowHeader(!isRainbowHeader)
-    }
     // Componenet body
     return (
-        <div id="header">
-            <h1 onClick={toggleRainbowHeader} className={"select" + (isRainbowHeader ? " rainbow" : "")}>Alex's Website (Under Construction)</h1>
-            <div id="headerLinks">
+        <div className="header">
+            <h1>Alex Chenot (WIP)</h1>
+            <div className="headerLinks">
                 <NavItem text="About"/>
                 <NavItem text="Work" />
                 <NavItem text="Projects" />

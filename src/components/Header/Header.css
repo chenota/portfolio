@@ -1,38 +1,20 @@
-div#header {
+div.header {
     width: 100%;
     color: darkslategray;
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 3rem 0 3rem;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
-div#headerLinks {
+div.headerLinks {
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
-
-.rainbow {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 12s ease-in-out infinite;
-    background-size: 400% 100%;
-}
-
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-    50% {
-        background-position: 100% 0;
-    }
-}
-
-.select {
-    cursor: pointer;
-    user-select: none;
 }
