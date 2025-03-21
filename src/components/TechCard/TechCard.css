@@ -9,11 +9,45 @@
     font-size: 1em;
     width: 8em;
     height: 2em;
+    user-select: none;
+}
+
+.active {
+    transition: color 0.1s linear;
+    color: black;
+}
+.active span.tcIcon {
+    transition: background-color 0.1s linear;
+    background-color: darkslategray;
+}
+
+.active:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.active:hover span.tcIcon {
+    background-color: orangered;
+}
+
+.inactive {
+    transition: color 0.1s linear;
+    color: lightgray;
+}
+.inactive span.tcIcon {
+    transition: background-color 0.1s linear;
+    background-color: lightgray;
+}
+
+.inactive:hover {
+    color: gray;
+    cursor: pointer;
+}
+.inactive:hover span.tcIcon {
+    background-color: gray;
 }
 
 .tcIcon {
     color: white;
-    background-color: darkslategray;
     padding: 1px;
     height: 100%;
     aspect-ratio : 1 / 1;

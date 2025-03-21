@@ -9,7 +9,7 @@ function Technologies() {
             <h1>Technologies I Use</h1>
             <div className="icons">
                 {
-                    Object.keys(cards).map((key) => <TechCard text={cards[key][0]} icon={cards[key][1]} key={key} />)
+                    Object.keys(cards).map((key) => <TechCard cardStyle={key} key={key} />)
                 }
             </div>
         </div>

@@ -28,7 +28,7 @@ function Project(props) {
             </div>
                 <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
                     {
-                        props.technologies.map((key) => <TechCard text={cards[key][0]} icon={cards[key][1]} key={key} />)
+                        props.technologies.map((key) => <TechCard cardStyle={key} key={key} />)
                     }
                 </div>
             
