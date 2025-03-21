@@ -1,6 +1,6 @@
 div.header {
     width: 100%;
-    color: darkslategray;
+    color: black;
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;

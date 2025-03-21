@@ -11,15 +11,37 @@ import Contact from './components/Contact/Contact'
 export const TechContext = React.createContext([]);
 
 function App() {
+  // State for highlighting tech cards
   const [tech, setTech] = React.useState([]);
+  // Refs to div elements
+  const aboutRef = React.useRef(null);
+  // Scroll to invisible div with id
+  const scrollTo = (ref) => {
+    return () => {
+      const eltPosition = document.querySelector(`#${ref}`).getBoundingClientRect().top;
+      const headerOffset = document.querySelector(`.header`).getBoundingClientRect().height;
+      window.scrollTo({
+        top: eltPosition + window.pageYOffset - headerOffset,
+        behavior:'smooth'
+      })
+    }
+  }
   return (
     <>
-      <Header />
+      <Header title="Alex Chenot (WIP)" navitems={
+        [
+          ["About", scrollTo('aboutSection')],
+          ["Work", scrollTo('workSection')],
+          ["Projects", scrollTo('projectSection')],
+          ["Contact", scrollTo('contactSection')]]
+      }/>
       <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'center'}}>
         <div id="cards">
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
+            <div id="aboutSection" style={{height:0,width:'100%'}}/>
             <Profile work={true}/>
             <Technologies />
+            <div id="workSection" style={{height:0}}/>
             <Divider text="Work" />
             <Job
               title="Software Engineering Intern"
@@ -48,6 +70,7 @@ function App() {
               link="https://oit.colorado.gov/">
               I worked closely with clients to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of other agencies.
             </Job>
+            <div id="projectSection" style={{height:0}}/>
             <Divider text="Projects" />
             <Project 
               title="AlexC"
@@ -77,6 +100,7 @@ function App() {
               >
                 This is the website you're on right now! I built this website using React which started out as an organizational tool, but features like state have turned out to be very useful.
             </Project>
+            <div id="contactSection" style={{height:0}}/>
             <Divider text="Contact" />
             <Contact />
           </TechContext.Provider>
