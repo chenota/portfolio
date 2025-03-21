@@ -17,10 +17,12 @@ function TechCard(props) {
         const idx = tech.indexOf(props.cardStyle);
         // Check if exists in tech list
         if(idx != -1) {
+            // Exists, remove from tech list
             setTech(tech.filter(x =>
                 x != props.cardStyle
             ))
         } else {
+            // Does not exist, add to tech list
             setTech([
                 ...tech,
                 props.cardStyle
