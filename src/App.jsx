@@ -6,6 +6,7 @@ import Project from './components/Project/Project'
 import React from 'react'
 import Job from './components/Job/Job'
 import Divider from './components/Divider/Divider'
+import Contact from './components/Contact/Contact'
 
 export const TechContext = React.createContext([]);
 
@@ -77,6 +78,7 @@ function App() {
                 This is the website you're on right now! I built this website using React which started out as an organizational tool, but features like state have turned out to be very useful.
             </Project>
             <Divider text="Contact" />
+            <Contact />
           </TechContext.Provider>
         </div>
       </div>
