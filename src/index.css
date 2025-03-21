@@ -31,7 +31,8 @@
 }
 
 .link {
-  color: black;
+  text-decoration: none;
+  color: darkslategray;
   transition: color 0.10s linear;
 }
 .link:hover {
