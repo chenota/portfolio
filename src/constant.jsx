@@ -16,5 +16,5 @@ export const cards = {
     linux:["Linux", <FaLinux />],
     excel:["Excel", <PiMicrosoftExcelLogo /> ],
     x86:["x86 ASM", <FaGears />],
-    git:["Git(hub)", <FaGit />]
+    git:["Git", <FaGit />]
 };
