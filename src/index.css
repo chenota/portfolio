@@ -29,3 +29,24 @@
   flex-direction: column;
   gap: 10px;
 }
+
+.link {
+  color: black;
+  transition: color 0.10s linear;
+}
+.link:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.shakeyHover:hover {
+  animation: shake 0.20s 3;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(6deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-6deg); }
+  100% { transform: rotate(0deg); }
+}

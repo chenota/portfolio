@@ -21,7 +21,7 @@ function Project(props) {
         <div className="container flexCol">
             <h1 style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:20}}>
                 <span>{props.title}</span>
-                <a href={props.link}><FaGithub /></a>
+                <a className="link shakeyHover" href={props.link}><FaGithub /></a>
             </h1>
             <div>
                 {props.children}
