@@ -5,6 +5,7 @@ import Technologies from './components/Technologies/Technologies'
 import Project from './components/Project/Project'
 import React from 'react'
 import Job from './components/Job/Job'
+import Divider from './components/Divider/Divider'
 
 export const TechContext = React.createContext([]);
 
@@ -18,8 +19,9 @@ function App() {
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
             <Profile work={true}/>
             <Technologies />
+            <Divider text="Work" />
             <Job
-              title="SWE Intern"
+              title="Software Engineering Intern"
               from="May 2024"
               to="Present"
               company="Primoris Renewable Energy"
@@ -45,6 +47,7 @@ function App() {
               link="https://oit.colorado.gov/">
               I worked closely with clients to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of other agencies.
             </Job>
+            <Divider text="Projects" />
             <Project 
               title="AlexC"
               link="https://www.github.com/chenota/alexc"
@@ -66,6 +69,7 @@ function App() {
               >
                 LispJS is a JavaScript interpreter written in the Common LISP programming language. The LispJS interpreter can run JS files or be used in REPL mode.
             </Project>
+            <Divider text="Contact" />
           </TechContext.Provider>
         </div>
       </div>

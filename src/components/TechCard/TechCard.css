@@ -8,7 +8,7 @@
     border-radius: 0.15em;
     font-size: 1em;
     width: 8em;
-    height: 2em;
+    height: 1.75em;
     user-select: none;
 }
 
@@ -58,5 +58,5 @@
 }
 
 .tcText {
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
