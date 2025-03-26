@@ -15,5 +15,16 @@ div.header {
 div.headerLinks {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+}
+
+.black {
+    color: black;
+}
+
+.headerTitle {
+    text-align: center;
 }

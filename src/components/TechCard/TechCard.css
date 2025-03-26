@@ -4,7 +4,6 @@
     gap: 4px;
     align-items: center;
     justify-content: left;
-    border: 1px solid black;
     border-radius: 0.15em;
     font-size: 1em;
     width: 8em;
@@ -15,6 +14,7 @@
 .active {
     transition: color 0.1s linear;
     color: black;
+    border: 1px solid darkslategray;
 }
 .active span.tcIcon {
     transition: background-color 0.1s linear;
@@ -24,6 +24,7 @@
 .active:hover {
     color: orangered;
     cursor: pointer;
+    border: 1px solid orangered;
 }
 .active:hover span.tcIcon {
     background-color: orangered;
@@ -32,6 +33,7 @@
 .inactive {
     transition: color 0.1s linear;
     color: lightgray;
+    border: 1px solid lightgray;
 }
 .inactive span.tcIcon {
     transition: background-color 0.1s linear;
