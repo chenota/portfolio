@@ -42,7 +42,7 @@ function App() {
             <Profile work={true}/>
             <Technologies />
             <div id="workSection" style={{height:0}}/>
-            <Divider text="Work" />
+            <Divider text="Jobs I've Had" />
             <Job
               title="Software Engineering Intern"
               from="May 2024"
@@ -57,7 +57,7 @@ function App() {
               from="August 2024"
               to="Present"
               company="Colorado School of Mines"
-              technologies={["ocaml","bash","js","git"]}
+              technologies={["ocaml","bash","js","py","git"]}
               link="https://www.mines.edu/">
               I facilitate significant grading processes and manage a GitHub organization with over 150 users and 50 repositories.
             </Job>
@@ -71,25 +71,25 @@ function App() {
               I worked closely with clients to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of other agencies.
             </Job>
             <div id="projectSection" style={{height:0}}/>
-            <Divider text="Projects" />
+            <Divider text="Projects I'm Proud of" />
             <Project 
               title="AlexC"
               link="https://www.github.com/chenota/alexc"
-              technologies={["rust", "linux", "x86", "git"]}
+              technologies={["rust", "cpp", "x86"]}
               >
                 AlexC is a C-like programming language that targets x86-64 assembly.
             </Project>
             <Project 
               title="AlexDB"
               link="https://www.github.com/chenota/alexdb"
-              technologies={["rust", "linux", "sql", "git"]}
+              technologies={["rust", "sql"]}
               >
                 AlexDB is a made-from-scratch relational database system that integrates a functional programming language into SQL queries.
             </Project>
             <Project 
               title="LispJS"
               link="https://www.github.com/chenota/lisp-js"
-              technologies={["clisp", "linux", "js", "git"]}
+              technologies={["clisp", "js"]}
               >
                 LispJS is a JavaScript interpreter written in the Common LISP programming language. The LispJS interpreter can run JS files or be used in REPL mode.
             </Project>
@@ -101,7 +101,7 @@ function App() {
                 This is the website you're on right now! I built this website using React which started out as an organizational tool, but features like state have turned out to be very useful.
             </Project>
             <div id="contactSection" style={{height:0}}/>
-            <Divider text="Contact" />
+            <Divider text="Let's get in Touch!" />
             <Contact />
           </TechContext.Provider>
         </div>

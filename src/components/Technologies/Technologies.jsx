@@ -6,7 +6,7 @@ function Technologies() {
     // Component
     return (
         <div className="container flexCol">
-            <h2>Technologies I Use</h2>
+            <h2>My Favorite Technologies</h2>
             <div className="icons">
                 {
                     Object.keys(cards).map((key) => <TechCard cardStyle={key} key={key} />)
