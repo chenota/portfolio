@@ -40,7 +40,18 @@ function App() {
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
             <div id="aboutSection" style={{height:0,width:'100%'}}/>
             <Profile work={true}/>
-            <Technologies />
+            <Technologies 
+              display={[
+                "rust",
+                "py",
+                "cpp",
+                "js",
+                "clisp",
+                "sql",
+                "react",
+                "linux",
+                "git"
+              ]}/>
             <div id="workSection" style={{height:0}}/>
             <Divider text="Jobs I've Had" />
             <Job
