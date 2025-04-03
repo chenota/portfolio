@@ -54,7 +54,7 @@ function App() {
               ]}
               title="My Favorite Technologies"/>
             <div id="workSection" style={{height:0}}/>
-            <Divider text="Jobs I've Had" />
+            <Divider text="My Jobs" />
             <Job
               title="Software Engineering Intern"
               from="May 2024"
@@ -62,7 +62,7 @@ function App() {
               company="Primoris Renewable Energy"
               technologies={["py","js","excel"]}
               link="https://www.prim.com/about/business-units/primoris-renewable-energy">
-              I work on creating and modernizing software automation processes for the design and construction of utility-scale solar installations.  
+              I work on creating and modernizing automation processes for the design and construction of utility-scale solar installations.  
             </Job>
             <Job
               title="Lead Teaching Assistant"
@@ -80,17 +80,17 @@ function App() {
               company="Colorado Governor's Office of IT"
               technologies={["sf","js","excel","sql"]}
               link="https://oit.colorado.gov/">
-              I worked closely with clients to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of other agencies.
+              I worked with clients and subject matter experts to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of state agencies.
             </Job>
             <div id="projectSection" style={{height:0}}/>
-            <Divider text="Projects I'm Proud of" />
+            <Divider text="My Projects" />
             <Project 
               title="AlexC"
               subtitle="Personal Project"
               link="https://www.github.com/chenota/alexc"
               technologies={["rust", "cpp", "x86"]}
               >
-                AlexC is a C-like programming language that targets x86-64 assembly.
+                AlexC is a C-like programming language that targets x86-64 assembly. I intended for AlexC to be a quick half-semester project, but it turns out that writing a compiler from scratch takes awhile - who would've thought?
             </Project>
             <Project 
               title="AlexDB"
@@ -98,7 +98,7 @@ function App() {
               link="https://www.github.com/chenota/alexdb"
               technologies={["rust", "sql"]}
               >
-                AlexDB is a made-from-scratch relational database system that integrates a functional programming language into SQL queries.
+                AlexDB is a made-from-scratch relational database system that integrates a functional programming language into SQL queries. AlexDB is my first (and certainly not last) foray into database programming, and it is by far my favorite class project I've ever completed.
             </Project>
             <Project 
               title="LispJS"
@@ -106,7 +106,7 @@ function App() {
               link="https://www.github.com/chenota/lisp-js"
               technologies={["clisp", "js"]}
               >
-                LispJS is a JavaScript interpreter written in the Common LISP programming language. The LispJS interpreter can run JS files or be used in REPL mode.
+                LispJS is a JavaScript interpreter written in the Common LISP programming language. It was through this project that I discovered the beauty (and occasional pain) of LISP programming.
             </Project>
             <Project 
               title="Portfolio Website"
@@ -114,7 +114,7 @@ function App() {
               link="https://github.com/chenota/chenota.github.io"
               technologies={["react"]}
               >
-                This is the website you're on right now! I built this website using React which started out as an organizational tool, but features like state have turned out to be very useful.
+                You're using this website right now! I'm using React mostly as an organizational tool, but I've also added some neat features along the way.
             </Project>
             <div id="contactSection" style={{height:0}}/>
             <Divider text="Let's get in Touch!" />
