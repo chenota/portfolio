@@ -51,7 +51,8 @@ function App() {
                 "react",
                 "linux",
                 "git"
-              ]}/>
+              ]}
+              title="My Favorite Technologies"/>
             <div id="workSection" style={{height:0}}/>
             <Divider text="Jobs I've Had" />
             <Job
@@ -85,6 +86,7 @@ function App() {
             <Divider text="Projects I'm Proud of" />
             <Project 
               title="AlexC"
+              subtitle="Personal Project"
               link="https://www.github.com/chenota/alexc"
               technologies={["rust", "cpp", "x86"]}
               >
@@ -92,6 +94,7 @@ function App() {
             </Project>
             <Project 
               title="AlexDB"
+              subtitle="Class Project for Advanced Data Systems"
               link="https://www.github.com/chenota/alexdb"
               technologies={["rust", "sql"]}
               >
@@ -99,6 +102,7 @@ function App() {
             </Project>
             <Project 
               title="LispJS"
+              subtitle="Personal Project"
               link="https://www.github.com/chenota/lisp-js"
               technologies={["clisp", "js"]}
               >
@@ -106,6 +110,7 @@ function App() {
             </Project>
             <Project 
               title="Portfolio Website"
+              subtitle="Personal Project"
               link="https://github.com/chenota/chenota.github.io"
               technologies={["react"]}
               >

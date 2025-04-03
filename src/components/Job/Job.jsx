@@ -22,7 +22,7 @@ function Job(props) {
         <div className="container flexCol">
             <div>
                 <h2>{props.title}</h2>
-                <div className="subheader">
+                <div className="subtitle header-align">
                     <a className="link" href={props.link}>{props.company}</a>
                     <div style={{height:"1rem",borderLeft:"1px solid darkslategray"}}></div>
                     <span>{props.from} - {props.to}</span>

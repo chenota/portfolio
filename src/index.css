@@ -51,3 +51,8 @@
   75% { transform: rotate(-6deg); }
   100% { transform: rotate(0deg); }
 }
+
+.subtitle {
+  color: darkslategray;
+  gap: 10px;
+}

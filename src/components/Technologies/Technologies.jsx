@@ -4,7 +4,7 @@ import { cards } from '../../constant';
 
 const defaultProps = {
     display: [""],
-    title: "My Favorite Languages and Technologies"
+    title: "Technologies"
 }
 
 function Technologies(props) {

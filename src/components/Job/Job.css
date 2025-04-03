@@ -1,9 +1,7 @@
-.subheader {
-    color: darkslategray;
+.header-align {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
 }

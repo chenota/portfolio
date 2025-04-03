@@ -5,6 +5,7 @@ import { cards } from '../../constant';
 
 const defaultProps = {
     title: "Project",
+    subtitle: "Subtitle",
     link: "https://www.github.com/chenota",
     children: "Some text about the project.",
     technologies: ["rust"]
@@ -19,10 +20,13 @@ function Project(props) {
     // Component
     return (
         <div className="container flexCol">
-            <h2 style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:20}}>
-                <span>{props.title}</span>
-                <a className="link shakeyHover" href={props.link}><FaGithub /></a>
-            </h2>
+            <div>
+                <h2 style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:20}}>
+                    <span>{props.title}</span>
+                    <a className="link shakeyHover" href={props.link}><FaGithub /></a>
+                </h2>
+                <div className="subtitle">{props.subtitle}</div>
+            </div>
             <div>
                 {props.children}
             </div>
