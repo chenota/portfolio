@@ -18,9 +18,10 @@
 }
 
 .container {
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
-  border: 2px solid black;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
   width: 100%;
 }
 
