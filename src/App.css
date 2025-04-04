@@ -4,4 +4,5 @@ div#cards {
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    padding-bottom: 20px;
 }
