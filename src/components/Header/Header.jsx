@@ -15,7 +15,7 @@ function Header(props) {
     const [scrolled, setScrolled] = React.useState(false);
     // UseEffect hook to add event listener
     React.useEffect(() => {
-        const handleScroll = () => setScrolled(window.scrollY > 10);
+        const handleScroll = () => setScrolled(window.scrollY > 5);
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll)
     })
