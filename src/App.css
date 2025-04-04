@@ -1,8 +1,14 @@
-div#cards {
+#cards {
     max-width: 50em;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
+}
+
+@media screen and (max-width: 850px) {
+    #cards {
+        padding: 0 20px 20px 20px;
+    }
 }
