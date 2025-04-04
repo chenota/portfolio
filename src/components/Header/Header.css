@@ -8,13 +8,15 @@
     z-index: 999;
     position: sticky;
     top: 0;
-    background-color: white;
-    border-bottom: 1px solid white;
-    transition: border-bottom 0.5s ease-out;
+    background-color: #FAF9F6;
+    border-bottom: 1px solid #FAF9F6;
+    transition: border-bottom 1s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 .withBottomBorder {
     border-bottom: 1px solid lightgray;
+    background-color: white;
 }
 
 div.headerLinks {
