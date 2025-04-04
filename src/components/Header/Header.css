@@ -1,7 +1,6 @@
-div.header {
+.header {
     width: 100%;
     color: black;
-    border-bottom: 1px solid lightgray;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -10,6 +9,12 @@ div.header {
     position: sticky;
     top: 0;
     background-color: white;
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.5s ease-out;
+}
+
+.withBottomBorder {
+    border-bottom: 1px solid lightgray;
 }
 
 div.headerLinks {

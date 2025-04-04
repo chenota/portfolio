@@ -1,4 +1,5 @@
 import './Header.css'
+import React from 'react'
 
 const defaultProps = {
     navitems:[],
@@ -10,9 +11,17 @@ function Header(props) {
         ...defaultProps,
         ...props
     }
+    // Main page scroll state
+    const [scrolled, setScrolled] = React.useState(false);
+    // UseEffect hook to add event listener
+    React.useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 10);
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll)
+    })
     // Componenet body
     return (
-        <div className="header">
+        <div className={"header" + (scrolled ? " withBottomBorder" : "")}>
             <h1 className="headerTitle">{props.title}</h1>
             <div className="headerLinks">
                 { 
