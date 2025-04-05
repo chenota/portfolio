@@ -10,8 +10,7 @@
     top: 0;
     background-color: #FAF9F6;
     border-bottom: 1px solid #FAF9F6;
-    transition: border-bottom 1s ease-out;
-    transition: background-color 1s ease-out;
+    transition: border-bottom 0.5s ease-out, background-color 0.5s ease-out;
 }
 
 .withBottomBorder {
