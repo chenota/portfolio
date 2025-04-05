@@ -40,7 +40,7 @@ function App() {
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
             <div id="aboutSection" style={{height:0,width:'100%'}}/>
             <Profile work={true}>
-                I'm a software engineer who's interested in programming language theory and data systems. Few things are as rewarding to me than discovering a simple and effective solution to a complex problem.
+                I'm a software engineer who's interested in programming language theory and data systems. I find few things as rewarding as discovering a simple and effective solution to a complex problem.
             </Profile>
             <Technologies 
               display={[
