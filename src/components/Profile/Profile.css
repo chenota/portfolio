@@ -27,10 +27,10 @@
     text-shadow:1px 1px 5px lightgreen;
 }
 
-.textYellow {
+.textRed {
     text-align: center;
-    color: yellow;
-    text-shadow:1px 1px 5px yellow;
+    color: red;
+    text-shadow:1px 1px 5px red;
 }
 
 .wave {

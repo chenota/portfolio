@@ -39,19 +39,18 @@ function App() {
         <div id="cards">
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
             <div id="aboutSection" style={{height:0,width:'100%'}}/>
-            <Profile work={true}>
+            <Profile work={false}>
                 I'm a software engineer who's interested in programming language theory and data systems. I find few things as rewarding as discovering a simple and effective solution to a complex problem.
             </Profile>
             <Technologies 
               display={[
-                "rust",
                 "py",
+                "rust",
                 "cpp",
                 "js",
-		"ocaml",
+		            "ocaml",
                 "clisp",
                 "sql",
-                "react",
                 "linux",
                 "git"
               ]}
@@ -59,22 +58,31 @@ function App() {
             <div id="workSection" style={{height:0}}/>
             <Divider text="My Jobs" />
             <Job
-              title="Software Engineering Intern"
-              from="May 2024"
+              title="Junior Software Engineer"
+              from="May 2025" 
               to="Present"
+              company="Bet365"
+              technologies={["go"]}
+              link="https://help.nj.bet365.com/us/about-us">
+              My first full-time job out of college.
+            </Job>
+            <Job
+              title="Software Engineering Intern"
+              from="May 2024" 
+              to="May 2025"
               company="Primoris Renewable Energy"
               technologies={["py","js","excel"]}
               link="https://www.prim.com/about/business-units/primoris-renewable-energy">
-              I work on creating and modernizing automation processes for the design and construction of utility-scale solar installations.  
+              I worked on designing, implementing, and modernizing automation processes for the design and construction of utility-scale solar farms.  
             </Job>
             <Job
               title="Lead Teaching Assistant"
               from="August 2024"
-              to="Present"
+              to="May 2025"
               company="Colorado School of Mines"
               technologies={["ocaml","bash","js","py","git"]}
               link="https://www.mines.edu/">
-              I facilitate significant grading processes and manage a GitHub organization with over 150 users and 50 repositories.
+              I facilitated significant grading processes and managed a GitHub organization with over 150 users and 50 repositories.
             </Job>
             <Job
               title="Junior Salesforce Developer"

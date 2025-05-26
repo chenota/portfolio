@@ -1,4 +1,4 @@
-import { FaLocationDot } from 'react-icons/fa6';
+import { FaLocationDot, FaBriefcase } from 'react-icons/fa6';
 import './Profile.css'
 
 const defaultProps = {
@@ -21,7 +21,7 @@ function Profile(props) {
             </div>
             <div>{props.children}</div>
             <div className="sbs sbsApart">
-                <div className={props.work ? "textGlow textGreen" : "textGlow textYellow"}>• {props.work ? "Open to Work" : "Happily Employed!"}</div>
+                <div><FaBriefcase /> {props.work ? "" : "Not"} Open to Work</div>
                 <div><FaLocationDot /> Denver, CO</div>
             </div>
         </div>

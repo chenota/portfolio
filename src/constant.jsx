@@ -1,4 +1,4 @@
-import { FaRust, FaPython, FaJs, FaReact, FaLinux, FaGears, FaGit, FaSalesforce } from 'react-icons/fa6';
+import { FaRust, FaPython, FaJs, FaReact, FaLinux, FaGears, FaGit, FaSalesforce, FaGolang } from 'react-icons/fa6';
 import { TbBrandCpp, TbLambda } from 'react-icons/tb';
 import { BsFiletypeSql } from 'react-icons/bs';
 import { SiGnubash, SiOcaml } from 'react-icons/si';
@@ -18,5 +18,6 @@ export const cards = {
     x86:["x86 ASM", <FaGears />],
     git:["Git", <FaGit />],
     ocaml:["OCaml", <SiOcaml />],
-    sf:["Salesforce", <FaSalesforce />]
+    sf:["Salesforce", <FaSalesforce />],
+    go:["Golang", <FaGolang />]
 };
