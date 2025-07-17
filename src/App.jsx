@@ -61,10 +61,10 @@ function App() {
               title="Junior Software Engineer"
               from="May 2025" 
               to="Present"
-              company="Bet365"
-              technologies={["go"]}
+              company="bet365"
+              technologies={["go", "gcp"]}
               link="https://help.nj.bet365.com/us/about-us">
-              My first full-time job out of college.
+              I work on cloud infrastructure at bet365.
             </Job>
             <Job
               title="Software Engineering Intern"

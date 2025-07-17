@@ -19,5 +19,6 @@ export const cards = {
     git:["Git", <FaGit />],
     ocaml:["OCaml", <SiOcaml />],
     sf:["Salesforce", <FaSalesforce />],
-    go:["Golang", <FaGolang />]
+    go:["Golang", <FaGolang />],
+    gcp:["GCP", <FaGoogle />]
 };
