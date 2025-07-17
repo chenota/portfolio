@@ -62,7 +62,7 @@ function App() {
               from="May 2025" 
               to="Present"
               company="bet365"
-              technologies={["go", "gcp"]}
+              technologies={["go"]}
               link="https://help.nj.bet365.com/us/about-us">
               I work on modern cloud infrastructure at bet365.
             </Job>
