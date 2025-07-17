@@ -64,7 +64,7 @@ function App() {
               company="bet365"
               technologies={["go", "gcp"]}
               link="https://help.nj.bet365.com/us/about-us">
-              I work on cloud infrastructure at bet365.
+              I work on modern cloud infrastructure at bet365.
             </Job>
             <Job
               title="Software Engineering Intern"
