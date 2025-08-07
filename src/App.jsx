@@ -44,13 +44,9 @@ function App() {
             </Profile>
             <Technologies 
               display={[
-                "py",
                 "rust",
-                "cpp",
-                "js",
-		            "ocaml",
                 "clisp",
-                "sql",
+                "py",
                 "linux",
                 "git"
               ]}
@@ -59,21 +55,21 @@ function App() {
             <Divider text="My Jobs" />
             <Job
               title="Junior Software Engineer"
-              from="May 2025" 
+              from="May 2025"
               to="Present"
               company="bet365"
-              technologies={["go"]}
+              technologies={["go","cloud"]}
               link="https://help.nj.bet365.com/us/about-us">
-              I work on modern cloud infrastructure at bet365.
+              I work on high-performance and scalable cloud infrastructure at bet365.
             </Job>
             <Job
               title="Software Engineering Intern"
-              from="May 2024" 
+              from="May 2024"
               to="May 2025"
               company="Primoris Renewable Energy"
               technologies={["py","js","excel"]}
               link="https://www.prim.com/about/business-units/primoris-renewable-energy">
-              I worked on designing, implementing, and modernizing automation processes for the design and construction of utility-scale solar farms.  
+              I worked on designing, implementing, and modernizing automation processes for the design and construction of utility-scale solar installations.  
             </Job>
             <Job
               title="Lead Teaching Assistant"
@@ -82,7 +78,7 @@ function App() {
               company="Colorado School of Mines"
               technologies={["ocaml","bash","js","py","git"]}
               link="https://www.mines.edu/">
-              I facilitated significant grading processes and managed a GitHub organization with over 150 users and 50 repositories.
+              I organized and often automated large-scale grading efforts and managed a GitHub organization with over 150 users.
             </Job>
             <Job
               title="Junior Salesforce Developer"
@@ -91,7 +87,7 @@ function App() {
               company="Colorado Governor's Office of IT"
               technologies={["sf","js","excel","sql"]}
               link="https://oit.colorado.gov/">
-              I worked with clients and subject matter experts to develop public-facing Salesforce applications, and assisted with managing a number of Salesforce orgs for a variety of state agencies.
+              I worked with a diverse set of clients and subject matter experts to develop Salesforce applications and helped manage a large number of Salesforce orgs.
             </Job>
             <div id="projectSection" style={{height:0}}/>
             <Divider text="My Projects" />
@@ -101,7 +97,7 @@ function App() {
               link="https://www.github.com/chenota/lispnet"
               technologies={["clisp"]}
               >
-                LispNet is a network library for Common Lisp. I've just recently started this project so there's not much there yet, and in the future I intend for LispNet to serve as a foundation for other projects.
+                LispNet is a network library for Common Lisp. I've just recently started this project so there's not much there yet, and in the future I intend for LispNet to serve as a strong foundation for other cool projects.
             </Project>
             <Project 
               title="AlexC"
@@ -131,9 +127,9 @@ function App() {
               title="Portfolio Website"
               subtitle="Personal Project"
               link="https://github.com/chenota/chenota.github.io"
-              technologies={["react"]}
+              technologies={["react","js"]}
               >
-                You're using this website right now! I'm using React mostly as an organizational tool, but I've also added some neat features along the way.
+                You're using this website right now! I'm using React mostly as an organizational tool, but I've also used it to create some neat features.
             </Project>
             <div id="contactSection" style={{height:0}}/>
             <Divider text="Let's get in Touch!" />

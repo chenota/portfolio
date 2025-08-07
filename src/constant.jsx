@@ -20,5 +20,5 @@ export const cards = {
     ocaml:["OCaml", <SiOcaml />],
     sf:["Salesforce", <FaSalesforce />],
     go:["Golang", <FaGolang />],
-    gcp:["GCP", <FaCloud />]
+    cloud:["Cloud", <FaCloud />],
 };
