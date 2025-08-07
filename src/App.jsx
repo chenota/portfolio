@@ -101,7 +101,7 @@ function App() {
               link="https://www.github.com/chenota/lispnet"
               technologies={["clisp"]}
               >
-                LispNet is a network library for Common Lisp.
+                LispNet is a network library for Common Lisp. I've just recently started this project so there's not much there yet, and in the future I intend for LispNet to serve as a foundation for other projects.
             </Project>
             <Project 
               title="AlexC"
