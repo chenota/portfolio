@@ -96,6 +96,14 @@ function App() {
             <div id="projectSection" style={{height:0}}/>
             <Divider text="My Projects" />
             <Project 
+              title="LispNet"
+              subtitle="Personal Project"
+              link="https://www.github.com/chenota/lispnet"
+              technologies={["clisp"]}
+              >
+                LispNet is a network library for Common Lisp.
+            </Project>
+            <Project 
               title="AlexC"
               subtitle="Personal Project"
               link="https://www.github.com/chenota/alexc"
@@ -117,7 +125,7 @@ function App() {
               link="https://www.github.com/chenota/lisp-js"
               technologies={["clisp", "js"]}
               >
-                LispJS is a JavaScript interpreter written in the Common LISP programming language. It was through this project that I discovered the beauty (and occasional pain) of LISP programming.
+                LispJS is a JavaScript interpreter written in the Common Lisp programming language. It was through this project that I discovered the beauty (and occasional pain) of Lisp programming.
             </Project>
             <Project 
               title="Portfolio Website"
