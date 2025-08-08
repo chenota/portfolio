@@ -46,9 +46,7 @@ function App() {
               display={[
                 "rust",
                 "clisp",
-                "py",
                 "linux",
-                "git"
               ]}
               title="My Favorite Technologies"/>
             <div id="workSection" style={{height:0}}/>
