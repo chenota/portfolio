@@ -28,7 +28,7 @@ function App() {
   }
   return (
     <>
-      <Header title="Alex Chenot" navitems={
+      <Header title="Alex's Website" navitems={
         [
           ["About", scrollTo('aboutSection')],
           ["Work", scrollTo('workSection')],
@@ -38,9 +38,9 @@ function App() {
       <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'center'}}>
         <div id="cards">
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
-            <div id="aboutSection" style={{height:0,width:'100%'}}/>
+            <div id="aboutSection" style={{height:0}}/>
             <Profile work={false}>
-                I'm a software engineer who's interested in programming language theory and data systems. I find few things as rewarding as discovering a simple and effective solution to a complex problem.
+              Hello and welcome to my website! I'm a software engineer with a keen interest in exploring programming language theory and data systems. I also like cats, music, and the outdoors - y hasta hablo un poco de español. 
             </Profile>
             <Technologies 
               display={[
