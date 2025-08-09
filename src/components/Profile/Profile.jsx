@@ -16,12 +16,11 @@ function Profile(props) {
     return (
         <div className="container flexCol">
             <div className="sbs sbsLarge">
-                {/*<img src="/square.svg" alt="Profile Picture" className="imgRounded" />*/}
-                <h1>Hi, I'm Alex <span className="wave">👋</span></h1>
+                <h2>Hi, I'm Alex <span className="wave">👋</span></h2>
             </div>
             <div>{props.children}</div>
             <div className="sbs sbsApart">
-                <div><FaBriefcase /> {props.work ? "" : "Not"} Open to Work</div>
+                <div><FaBriefcase /> {props.work ? "" : "Not"} Looking for Work</div>
                 <div><FaLocationDot /> Denver, CO</div>
             </div>
         </div>

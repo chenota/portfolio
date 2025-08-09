@@ -40,7 +40,7 @@ function App() {
           <TechContext.Provider value={{ tech: tech, setTech: setTech }}>
             <div id="aboutSection" style={{height:0}}/>
             <Profile work={false}>
-              Hello and welcome to my website! I'm a software engineer with a keen interest in exploring programming language theory and data systems. I also like cats, music, and the outdoors - y hasta hablo un poco de español. 
+              Welcome to my website! I'm a software engineer with an interest in exploring programming language theory and data systems. 
             </Profile>
             <Technologies 
               display={[
@@ -53,8 +53,6 @@ function App() {
             <Divider text="My Jobs" />
             <Job
               title="Junior Software Engineer"
-              from="May 2025"
-              to="Present"
               company="bet365"
               technologies={["go","cloud"]}
               link="https://help.nj.bet365.com/us/about-us">
@@ -62,8 +60,6 @@ function App() {
             </Job>
             <Job
               title="Software Engineering Intern"
-              from="May 2024"
-              to="May 2025"
               company="Primoris Renewable Energy"
               technologies={["py","js","excel"]}
               link="https://www.prim.com/about/business-units/primoris-renewable-energy">
@@ -71,8 +67,6 @@ function App() {
             </Job>
             <Job
               title="Lead Teaching Assistant"
-              from="August 2024"
-              to="May 2025"
               company="Colorado School of Mines"
               technologies={["ocaml","bash","js","py","git"]}
               link="https://www.mines.edu/">
@@ -80,8 +74,6 @@ function App() {
             </Job>
             <Job
               title="Junior Salesforce Developer"
-              from="July 2018"
-              to="September 2020"
               company="Colorado Governor's Office of IT"
               technologies={["sf","js","excel","sql"]}
               link="https://oit.colorado.gov/">
