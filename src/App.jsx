@@ -45,7 +45,9 @@ function App() {
             <Technologies 
               display={[
                 "rust",
+                "go",
                 "clisp",
+                "py",
                 "linux",
               ]}
               title="My Favorite Technologies"/>
