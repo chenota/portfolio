@@ -55,28 +55,35 @@ function App() {
               title="Junior Software Engineer"
               company="bet365"
               technologies={["go","cloud"]}
-              link="https://help.nj.bet365.com/us/about-us">
+              link="https://help.nj.bet365.com/us/about-us"
+              startDate="2025-05">
               I work on high-performance and scalable cloud infrastructure at bet365.
             </Job>
             <Job
               title="Software Engineering Intern"
               company="Primoris Renewable Energy"
               technologies={["py","js","excel"]}
-              link="https://www.prim.com/about/business-units/primoris-renewable-energy">
+              link="https://www.prim.com/about/business-units/primoris-renewable-energy"
+              startDate="2024-05"
+              endDate="2025-05">
               I worked on designing, implementing, and modernizing automation processes for the design and construction of utility-scale solar installations.  
             </Job>
             <Job
               title="Lead Teaching Assistant"
               company="Colorado School of Mines"
               technologies={["ocaml","bash","js","py","git"]}
-              link="https://www.mines.edu/">
+              link="https://www.mines.edu/"
+              startDate="2024-08"
+              endDate="2025-05">
               I organized and often automated large-scale grading efforts and managed a GitHub organization with over 150 users.
             </Job>
             <Job
               title="Junior Salesforce Developer"
               company="Colorado Governor's Office of IT"
               technologies={["sf","js","excel","sql"]}
-              link="https://oit.colorado.gov/">
+              link="https://oit.colorado.gov/"
+              startDate="2018-07"
+              endDate="2020-09">
               I worked with a diverse set of clients and subject matter experts to develop Salesforce applications and helped manage a large number of Salesforce orgs.
             </Job>
             <div id="projectSection" style={{height:0}}/>
