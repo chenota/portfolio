@@ -20,21 +20,18 @@ function Project(props) {
     // Component
     return (
         <div className="container flexCol">
-            <div>
-                <h2 style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:20}}>
-                    <span>{props.title}</span>
-                    <a className="link shakeyHover" href={props.link}><FaGithub /></a>
-                </h2>
-                <div className="subtitle">{props.subtitle}</div>
-            </div>
+            <h2 style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:20}}>
+                <span>{props.title}</span>
+                <a className="link shakeyHover" href={props.link}><FaGithub /></a>
+            </h2>
             <div>
                 {props.children}
             </div>
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
-                    {
-                        props.technologies.map((key) => <TechCard cardStyle={key} key={key} />)
-                    }
-                </div>
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
+                {
+                    props.technologies.map((key) => <TechCard cardStyle={key} key={key} />)
+                }
+            </div>
             
         </div>
     )

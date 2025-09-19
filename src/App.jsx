@@ -48,18 +48,17 @@ function App() {
                 "go",
                 "clisp",
                 "py",
-                "linux",
               ]}
               title="My Favorite Technologies"/>
             <div id="workSection" style={{height:0}}/>
-            <Divider text="My Jobs" />
+            <Divider text="Jobs" />
             <Job
               title="Junior Software Engineer"
               company="bet365"
               technologies={["go","cloud"]}
               link="https://help.nj.bet365.com/us/about-us"
               startDate="2025-05">
-              I work on high-performance and scalable cloud infrastructure at bet365.
+              I work on high-performance and scalable cloud infrastructure.
             </Job>
             <Job
               title="Software Engineering Intern"
@@ -68,7 +67,7 @@ function App() {
               link="https://www.prim.com/about/business-units/primoris-renewable-energy"
               startDate="2024-05"
               endDate="2025-05">
-              I worked on designing, implementing, and modernizing automation processes for the design and construction of utility-scale solar installations.  
+              I implemented automation processes for the design of utility-scale solar installations.  
             </Job>
             <Job
               title="Lead Teaching Assistant"
@@ -77,7 +76,7 @@ function App() {
               link="https://www.mines.edu/"
               startDate="2024-08"
               endDate="2025-05">
-              I organized and often automated large-scale grading efforts and managed a GitHub organization with over 150 users.
+              I organized and sometimes automated large-scale grading efforts, and managed a large GitHub organization.
             </Job>
             <Job
               title="Junior Salesforce Developer"
@@ -86,52 +85,47 @@ function App() {
               link="https://oit.colorado.gov/"
               startDate="2018-07"
               endDate="2020-09">
-              I worked with a diverse set of clients and subject matter experts to develop Salesforce applications and helped manage a large number of Salesforce orgs.
+              I developed Salesforce applications and helped manage a large number of Salesforce orgs.
             </Job>
             <div id="projectSection" style={{height:0}}/>
-            <Divider text="My Projects" />
+            <Divider text="Projects" />
             <Project 
               title="LispNet"
-              subtitle="Personal Project"
               link="https://www.github.com/chenota/lispnet"
               technologies={["clisp"]}
               >
-                LispNet is a network library for Common Lisp. I've just recently started this project so there's not much there yet, and in the future I intend for LispNet to serve as a strong foundation for other cool projects.
+                Network library for Common Lisp.
             </Project>
             <Project 
               title="AlexC"
-              subtitle="Personal Project"
               link="https://www.github.com/chenota/alexc"
               technologies={["rust", "cpp", "x86"]}
               >
-                AlexC is a C-like programming language that targets x86-64 assembly. I intended for AlexC to be a quick half-semester project, but it turns out that writing a compiler from scratch takes awhile - who would've thought?
+                C-like programming language that targets x86-64 assembly.
             </Project>
             <Project 
               title="AlexDB"
-              subtitle="Class Project for Advanced Data Systems"
               link="https://www.github.com/chenota/alexdb"
               technologies={["rust", "sql"]}
               >
-                AlexDB is a made-from-scratch relational database system that integrates a functional programming language into SQL queries. AlexDB is my first (and certainly not last) foray into database programming, and it is by far my favorite class project I've ever completed.
+                Relational database system that integrates a functional programming language into SQL queries.
             </Project>
             <Project 
               title="LispJS"
-              subtitle="Personal Project"
               link="https://www.github.com/chenota/lisp-js"
               technologies={["clisp", "js"]}
               >
-                LispJS is a JavaScript interpreter written in the Common Lisp programming language. It was through this project that I discovered the beauty (and occasional pain) of Lisp programming.
+                JavaScript interpreter written in the Common Lisp programming language.
             </Project>
             <Project 
               title="Portfolio Website"
-              subtitle="Personal Project"
               link="https://github.com/chenota/chenota.github.io"
               technologies={["react","js"]}
               >
-                You're using this website right now! I'm using React mostly as an organizational tool, but I've also used it to create some neat features.
+                You're using this website right now!
             </Project>
             <div id="contactSection" style={{height:0}}/>
-            <Divider text="Let's get in Touch!" />
+            <Divider text="Contact" />
             <Contact />
           </TechContext.Provider>
         </div>

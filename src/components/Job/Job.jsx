@@ -51,11 +51,11 @@ function Job(props) {
             <div>
                 {props.children}
             </div>
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
-                    {
-                        props.technologies.map((key) => <TechCard cardStyle={key} key={key} />)
-                    }
-                </div>
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',flexWrap:'wrap',gap:5}}>
+                {
+                    props.technologies.map((key) => <TechCard cardStyle={key} key={key} />)
+                }
+            </div>
         </div>
     )
 }
